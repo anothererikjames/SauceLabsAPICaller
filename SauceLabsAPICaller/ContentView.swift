@@ -8,12 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var apiCaller:APICaller = APICaller()
+    @State var buttonTitle: String = "Start API Calls"
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Button(action: {
+                self.apiCaller.callAllAPIS(contentView:self)
+            }) {
+                Text(buttonTitle)
+                        .fontWeight(.bold)
+                        .font(.title)
+            }
         }
         .padding()
     }

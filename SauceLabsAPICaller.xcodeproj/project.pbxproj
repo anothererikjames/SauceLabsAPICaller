@@ -14,6 +14,7 @@
 		A234009329708ADB00616C66 /* SauceLabsAPICallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A234009229708ADB00616C66 /* SauceLabsAPICallerTests.swift */; };
 		A234009D29708ADB00616C66 /* SauceLabsAPICallerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A234009C29708ADB00616C66 /* SauceLabsAPICallerUITests.swift */; };
 		A234009F29708ADB00616C66 /* SauceLabsAPICallerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A234009E29708ADB00616C66 /* SauceLabsAPICallerUITestsLaunchTests.swift */; };
+		A23400AC2970913C00616C66 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23400AB2970913C00616C66 /* APICaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A234009829708ADB00616C66 /* SauceLabsAPICallerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SauceLabsAPICallerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A234009C29708ADB00616C66 /* SauceLabsAPICallerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SauceLabsAPICallerUITests.swift; sourceTree = "<group>"; };
 		A234009E29708ADB00616C66 /* SauceLabsAPICallerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SauceLabsAPICallerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A23400AB2970913C00616C66 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				A234008329708AD500616C66 /* ContentView.swift */,
 				A234008529708ADA00616C66 /* Assets.xcassets */,
 				A234008729708ADA00616C66 /* Preview Content */,
+				A23400AB2970913C00616C66 /* APICaller.swift */,
 			);
 			path = SauceLabsAPICaller;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A234008429708AD500616C66 /* ContentView.swift in Sources */,
+				A23400AC2970913C00616C66 /* APICaller.swift in Sources */,
 				A234008229708AD500616C66 /* SauceLabsAPICallerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +429,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +459,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
