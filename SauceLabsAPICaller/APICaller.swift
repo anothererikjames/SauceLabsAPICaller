@@ -41,7 +41,8 @@ class APICaller: NSObject,ObservableObject {
         let apis = ["https://jsonplaceholder.typicode.com/posts/1",
                     "https://catfact.ninja/fact","https://www.boredapi.com/api/activity",
                     "https://api.agify.io?name=meelad",
-        "https://randomuser.me/api/", "https://api.nationalize.io?name=nathaniel","https://datausa.io/api/data?drilldowns=Nation&measures=Population"]
+        "https://randomuser.me/api/", "https://api.nationalize.io?name=nathaniel","https://datausa.io/api/data?drilldowns=Nation&measures=Population",
+        "http://demoapi.apifortress.com/api/retail/product?key=ABC123"]
         
         apis.forEach { api in
             urlCounter+=1
