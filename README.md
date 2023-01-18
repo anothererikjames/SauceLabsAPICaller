@@ -13,3 +13,4 @@ Current URLs hit are:
 "https://randomuser.me/api/", 
 "https://api.nationalize.io?name=nathaniel",
 "https://datausa.io/api/data?drilldowns=Nation&measures=Population"
+"http://demoapi.apifortress.com/api/retail/product?key=ABC123"
